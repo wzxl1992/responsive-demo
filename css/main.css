@@ -10,3 +10,50 @@ h1, h2, h3, h4, .lead {
     font-family: 'Satisfy', Helvetica, sans-serif;
 }
 
+.special {
+
+	background-color: #EEA006;
+}
+.motto {
+
+	display: none;
+}
+
+@media (min-width: 768px) { 
+	.motto {
+		display: inline;
+	}
+	body {
+		font-size: 18px.
+	}
+
+	header {
+		position: relative;
+	}
+	nav {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+
+	}
+
+}
+
+nav ul {
+	padding-left:0;
+
+}
+nav li {
+	list-style: none;
+	display: inline-block;
+	padding: 0.5em;
+	margin-right: 0.5em;
+}
+footer {
+
+	position: fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	background-color:#EEA006;
+}
