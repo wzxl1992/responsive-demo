@@ -1,0 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+
+body {
+    font-family: 'Arimo', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, .lead {
+    font-family: 'Satisfy', Helvetica, sans-serif;
+}
+
